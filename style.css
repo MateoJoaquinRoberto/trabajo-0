@@ -1,0 +1,848 @@
+#fondo{
+    background-color: black;
+}
+
+#grilla{
+    display: grid;
+    grid-template-rows:5% 29% 16% 29% 10% ;
+}
+.cuerpo{
+    display: grid;
+    background-color: black;
+    grid-template-columns:none;
+
+}
+.header{
+    grid-area: header;
+    justify-content: center;
+    
+}
+
+
+nav{
+    grid-area: nav;
+}
+
+
+section{
+    grid-area: section;
+
+}
+
+article{
+    grid-area: article;
+}
+aside{
+    grid-area: aside;
+}
+
+footer{
+    grid-area: footer;
+}
+
+
+
+#lista{
+    color: black;
+    background-color:rgb(248, 245, 245);
+    text-align: center;
+    position:fixed;
+    top: 0%;
+    left: 35%;
+}
+
+.menu{
+    list-style-type: none;
+    text-align:start;
+    font-size: 30px;
+    margin:29px;
+    margin-left:-22px;
+    padding:0;
+    display: inline;
+    
+    
+}
+.titulo{
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    color: rgb(248, 245, 245);
+    margin-left: 34%;
+}
+
+.titulo2{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color: rgb(248, 245, 245);
+}
+.titulo3{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 45px;
+    color: rgb(248, 245, 245);
+    color: black;
+    background-color: white;
+    margin-top: 6%;
+}   
+
+
+                                        /*PAGINAS*/
+        /*index*/
+#Gavofoto{
+    display: flex;
+    flex-direction:row;
+    flex-wrap:wrap ;
+    justify-content:center;
+    align-content:center;
+    margin-top: 10%;
+}
+.fotocont{
+    margin: 10px auto;
+    margin-left: 30%;
+    width: 1300px;
+    height: 1000px;
+    border-width: 0px;
+    overflow:hidden;
+    margin-left: 30%
+    
+}
+.fotocont1{
+    width:1500px ;
+    height: 400px;
+}
+.Gavofoto{
+    width: 1300px;
+    position: relative;
+    bottom: 50%;
+}
+.Gavofoto2{
+    width: 800px;
+    height: 500px;
+    margin-top: 5%;
+    margin-left: 23%;
+    
+}
+.Gavofoto3{
+    width:1500px ;
+    height: 1000px;
+    margin-top: 18%;
+}
+ 
+.historia{
+    text-align: center;
+    font-size: 32px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    margin-top: 50%;
+}
+.puntos{
+       background: rgba(13, 13, 14, 0.85);
+       left: 35%;
+       bottom: 10%;
+       right: 0;
+       top: 0;
+       display: flex;
+       position: fixed;
+       z-index: 999;
+       background: rgb(12, 12, 12);
+       border-radius: 2px;
+       box-shadow: 0px 1px 3px rgba(12, 12, 12);
+       box-sizing: content-box;
+       display: flex;
+       flex-direction: column;
+       margin: auto;
+       max-width: 600px;
+       min-width: 320px !important;
+       overflow: hidden;
+       position: relative;
+       width: 25%;
+       padding: 2rem;
+       font-size: 1.3rem;
+       color: white;
+}
+
+
+/*servicios*/
+
+.section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows:auto auto auto auto;
+    grid-column-gap:0px;
+    grid-row-gap: 15px;
+    justify-items:start;
+    align-items:center;
+    
+}   
+.trabajo{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    margin-top: 5%;
+    
+}
+.corte{
+    text-align:center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+.foto1{
+    margin:0px auto;
+    margin-left: 132px;
+    border-width: 0px;
+}
+.foto2{
+    display: block;
+    margin:0px auto;
+    margin-left: 155px;
+    border-width: 0px;
+}
+.foto3{
+    margin:0px auto;
+    display: block;
+    margin-left: 150px;
+    border-width: 0px;
+}
+.foto4{
+    display: block;
+    margin:0px auto;
+    margin-left: 150px;
+    border-width: 0px;
+}
+.foto5{
+    display: block;
+    margin:0px auto;
+    margin-left: 46%;
+    border-width: 0px;
+}
+
+/*productos*/
+.issue{
+    display:inline;
+    width: 300px;
+    height: 300px;
+    margin-left:12% ;
+    padding: 1%;
+}  
+.alfa{
+    display:inline;
+    width: 300px;
+    height: 300px;
+    margin-left:12% ;
+    padding: 1%;
+    background-color: black;
+    
+} 
+      /*turnos*/
+.formulario{
+    display: grid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:150%;
+    color: white;
+    align-items:center;
+    text-align: center;
+    width: 25%;
+    height: 42%;
+    margin-left: 37%;
+    margin-top: 5%;
+}
+    
+/*personal*/
+#avatar{
+    display:grid;
+    grid-template-columns: repeat(3, 2fr);
+    align-items:baseline;
+    justify-content:space-evenly;
+    text-align: center;
+    margin-top: 3%;
+    background-color: white
+}
+.equipo{
+    width: 25%;
+    height: 42%;
+    margin-top: 20%;
+}
+
+    /*footer*/
+.wpp,.insta,.maps{
+    display:grid;
+    position:relative;
+    bottom: -100px;
+    width: 40px;
+    height: auto;
+    color: white;
+    
+}
+.logo{
+    position:relative;
+    left:94%;
+    size: 15px;
+}
+#links a{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    
+}
+a:link, a:visited, a:active{
+    text-decoration: none;
+    color: black;
+}
+
+/*Pantallas*/
+@media screen and (min-width: 320px) { 
+    #grilla{
+        grid-template-rows:2% 1% 50% 18% 5% ;
+        row-gap: 10px;
+        grid-template-areas:"header" "nav" "section" "article" "aside" "footer"
+    }
+
+    .titulo{
+        font-size: 1000%;
+        margin-top: 20%;
+        margin-left: 50%;
+    }
+
+    #lista{
+        color: black;
+        background-color:rgb(248, 245, 245);
+        text-align:justify;
+        position:fixed;
+        top: 0%;
+        left: 22%;
+    }
+    
+    .menu{
+        list-style-type: none;
+        text-align:start;
+        font-size: 50px;
+        margin:29px;
+        margin-left:-22px;
+        padding:0;
+        
+        
+        
+    }
+
+    .fotocont{
+        margin: 10px auto;
+        width: 1300px;
+        height: 1000px;
+        border-width: 0px;
+        overflow:hidden;
+        margin-left: 25%
+        
+        
+    }
+
+    .fotocont1{
+        width:1500px ;
+        height: 400px;
+    
+    }
+     
+    .Gavofoto3{
+        height:200%;
+    }
+
+    .historia{
+        font-size: 48px;
+        text-align:center;
+        line-height: 100%;
+        margin-right: 12%;
+        margin-left: 12%;
+    }
+
+    .puntos{
+        font-size: 300%;
+        width: 100%;
+        margin-top: 10%;
+        margin-right: 45%;
+    }
+
+    button{
+        font-size: 150%;
+    }
+
+    /*servicios*/
+
+.section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows:auto auto auto auto;
+    grid-column-gap:0px;
+    grid-row-gap: 15px;
+    justify-items:start;
+    align-items:center;
+    
+}   
+.trabajo{
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    margin-top: 5%;
+    
+}
+.corte{
+    text-align:center;
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+}
+.foto1{
+    margin:0px auto;
+    margin-left: 132px;
+    border-width: 0px;
+}
+.foto2{
+    display: block;
+    margin:0px auto;
+    margin-left: 155px;
+    border-width: 0px;
+}
+.foto3{
+    margin:0px auto;
+    display: block;
+    margin-left: 150px;
+    border-width: 0px;
+}
+.foto4{
+    display: block;
+    margin:0px auto;
+    margin-left: 150px;
+    border-width: 0px;
+}
+.foto5{
+    display: block;
+    margin:0px auto;
+    margin-left: 46%;
+    border-width: 0px;
+}
+
+/*productos*/
+.issue{
+    display:inline;
+    width: 300px;
+    height: 300px;
+    margin-left:12% ;
+    padding: 1%;
+}  
+.alfa{
+    display:inline;
+    width: 300px;
+    height: 300px;
+    margin-left:12% ;
+    padding: 1%;
+    background-color: black;
+    
+} 
+      /*turnos*/
+.formulario{
+    display: grid;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:150%;
+    color: white;
+    align-items:center;
+    text-align: center;
+    width: 25%;
+    height: 42%;
+    margin-left: 37%;
+    margin-top: 5%;
+}
+    
+/*personal*/
+#avatar{
+    display:grid;
+    grid-template-columns: repeat(3, 2fr);
+    align-items:baseline;
+    justify-content:space-evenly;
+    text-align: center;
+    margin-top: 3%;
+    background-color: white
+}
+.equipo{
+    width: 25%;
+    height: 42%;
+    margin-top: 20%;
+}
+
+    /*footer*/
+.wpp,.insta,.maps{
+    display:grid;
+    position:relative;
+    bottom: -100px;
+    width: 40px;
+    height: auto;
+    color: white;
+    left: -7%;
+    
+}
+.logo{
+    position:relative;
+    left:90%;
+    size: 15px;
+}
+#links a{
+    text-decoration:none;
+    color:rgb(255, 255, 255);
+    
+}
+a:link, a:visited, a:active{
+    text-decoration: none;
+    color: black;
+}
+
+.wpp,.insta,.maps{
+    display:grid;
+    position:relative;
+    width: 100px;
+    height: auto;
+    color: white;
+    font-size: 300%;
+    margin-left: 7%;
+}
+.logoindex{
+    position:relative;
+    margin-left: 65%;
+    margin-bottom:25%;
+    width: 20%;
+    }
+}
+
+
+
+
+
+@media screen and (min-width: 1024px){
+    #fondo{
+        background-color: black;
+    }
+    
+    #grilla{
+        display: grid;
+        grid-template-rows:1% ;
+        grid-template-columns: min-content;
+    }
+    .cuerpo{
+        display: grid;
+        background-color: black;
+        grid-template-columns:none;
+    
+    }
+    .header{
+        grid-area: header;
+        justify-content: center;
+        
+    }
+    
+    
+    nav{
+        grid-area: nav;
+    }
+    
+    
+    section{
+        grid-area: section;
+    
+    }
+    
+    article{
+        grid-area: article;
+    }
+    aside{
+        grid-area: aside;
+    }
+    
+    footer{
+        grid-area: footer;
+    }
+    
+    
+    
+    #lista{
+        color: black;
+        background-color:rgb(248, 245, 245);
+        text-align: center;
+        position:fixed;
+        top: 0%;
+        left: 34%;
+    }
+    
+    .menu{
+        list-style-type: none;
+        text-align:center;
+        font-size: 30px;
+        margin:29px;
+        margin-left:-22px;
+        padding:0;
+        display: inline;
+        
+        
+    }
+    .titulo{
+        position: absolute;
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 80px;
+        color: rgb(248, 245, 245);
+        margin-left: 34%;
+        margin-top: 4% ;
+    }
+    
+    .titulo2{
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 50px;
+        color: rgb(248, 245, 245);
+    }
+    .titulo3{
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 45px;
+        color: rgb(248, 245, 245);
+        color: black;
+        background-color: white;
+        margin-top: 6%;
+    }   
+    
+    
+                                            /*PAGINAS*/
+            /*index*/
+    #Gavofoto{
+        display: flex;
+        flex-direction:row;
+        flex-wrap:wrap ;
+        justify-content:center;
+        align-content:center;
+        margin-top: 10%;
+        margin-left: 10%;
+    }
+    .fotocont{
+        margin: 10px auto;
+        margin-left: 30%;
+        width: 1300px;
+        height: 1000px;
+        border-width: 0px;
+        overflow:hidden;
+        margin-left: 30%
+        
+    }
+    .fotocont1{
+        width:1500px ;
+        height: 400px;
+    }
+    
+    .Gavofoto2{
+        width: 800px;
+        height: 500px;
+        margin-top: 5%;
+        margin-left: 28%;
+        
+    }
+    .Gavofoto3{
+        width:1500px ;
+        height: 1000px;
+        margin-top: 18%;
+        margin-left: 10%;
+    }
+     
+    .historia{
+        display:inline-block;
+        text-align:center;
+        font-size: 40px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        color: white;
+        margin-top: 65%;
+        margin-bottom:10%;
+        margin-left: 42%;
+    }
+    .puntos{
+           background: rgba(13, 13, 14, 0.85);
+           left: 15%;
+           bottom: 70%;
+           right:0;
+           top: 0%;
+           display: flex;
+           position: fixed;
+           z-index: 999;
+           background: rgb(12, 12, 12);
+           border-radius: 2px;
+           box-shadow: 0px 1px 3px rgba(12, 12, 12);
+           box-sizing: content-box;
+           display: flex;
+           flex-direction: column;
+           margin: auto;
+           margin-left: 60%;
+           max-width: 600px;
+           min-width: 320px !important;
+           overflow: hidden;
+           width: 25%;
+           padding: 1rem;
+           font-size: 1.3rem;
+           color: white;
+    }
+    
+    
+    /*servicios*/
+    
+    .section {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        grid-template-rows:auto auto auto auto;
+        grid-column-gap:0px;
+        grid-row-gap: 15px;
+        justify-items:start;
+        align-items:center;
+        
+    }   
+    .trabajo{
+        text-align: center;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 30px;
+        color: rgb(0, 0, 0);
+        background-color: white;
+        margin-top: 5%;
+        
+    }
+    .corte{
+        text-align:center;
+        font-weight: bold;
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 20px;
+        color: rgb(0, 0, 0);
+        background-color: white;
+    }
+    .foto1{
+        margin:0px auto;
+        margin-left: 132px;
+        border-width: 0px;
+    }
+    .foto2{
+        display: block;
+        margin:0px auto;
+        margin-left: 155px;
+        border-width: 0px;
+    }
+    .foto3{
+        margin:0px auto;
+        display: block;
+        margin-left: 150px;
+        border-width: 0px;
+    }
+    .foto4{
+        display: block;
+        margin:0px auto;
+        margin-left: 150px;
+        border-width: 0px;
+    }
+    .foto5{
+        display: block;
+        margin:0px auto;
+        margin-left: 46%;
+        border-width: 0px;
+    }
+    
+    /*productos*/
+    .issue{
+        display:inline;
+        width: 300px;
+        height: 300px;
+        margin-left:12% ;
+        padding: 1%;
+    }  
+    .alfa{
+        display:inline;
+        width: 300px;
+        height: 300px;
+        margin-left:12% ;
+        padding: 1%;
+        background-color: black;
+        
+    } 
+          /*turnos*/
+    .formulario{
+        display: grid;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size:150%;
+        color: white;
+        align-items:center;
+        text-align: center;
+        width: 25%;
+        height: 42%;
+        margin-left: 37%;
+        margin-top: 5%;
+    }
+        
+    /*personal*/
+    #avatar{
+        display:grid;
+        grid-template-columns: repeat(3, 2fr);
+        align-items:baseline;
+        justify-content:space-evenly;
+        text-align: center;
+        margin-top: 3%;
+        background-color: white
+    }
+    .equipo{
+        width: 25%;
+        height: 42%;
+        margin-top: 20%;
+    }
+    
+        /*footer*/
+    #links{
+        margin-right: 65%;
+    }
+    .wpp,.insta,.maps{
+        display:inline;
+        position:relative;
+        bottom: -100px;
+        width: 50px;
+        height: auto;
+        color: white;
+        margin-right: -7%;   
+        
+    }
+    .logo{
+        position:relative;
+        margin-left:150%;
+        width: 45%;
+    }
+
+    .logoindex{
+        position:relative;
+        margin-left:300%;
+        width: 45%;
+    }
+
+    #links a{
+        text-decoration:none;
+        color:rgb(255, 255, 255);
+        
+    }
+    a:link, a:visited, a:active{
+        text-decoration: none;
+        color: black;
+    }
+    
+}
+
