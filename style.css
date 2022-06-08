@@ -663,16 +663,26 @@ a:link, a:visited, a:active{
         margin-top: 18%;
         margin-left: 10%;
     }
-     
+
+    .transformacion{
+        width: 600px;
+        height: 590px;
+        background-color:white;
+        z-index: -1;
+        margin-top: 65%;
+        margin-left: 40%;
+    }
+
+
     .historia{
         display:inline-block;
         text-align:center;
         font-size: 40px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: white;
-        margin-top: 65%;
+        color:black;
+        margin-top: 2%;
         margin-bottom:10%;
-        margin-left: 42%;
+        margin-left: 11%;
     }
     .puntos{
            background: rgba(13, 13, 14, 0.85);
