@@ -627,44 +627,6 @@ a:link, a:visited, a:active{
     
                                             /*PAGINAS*/
             /*index*/
-    /*#Gavofoto{
-        display: flex;
-        flex-direction:row;
-        flex-wrap:wrap ;
-        justify-content:center;
-        align-content:center;
-        margin-top: 10%;
-        margin-left: 10%;
-    }
-    .fotocont{
-        margin: 10px auto;
-        margin-left: 30%;
-        width: 1300px;
-        height: 1000px;
-        border-width: 0px;
-        overflow:hidden;
-        margin-left: 30%
-        
-    }
-    .fotocont1{
-        width:1500px ;
-        height: 400px;
-    }
-    
-    .Gavofoto2{
-        width: 800px;
-        height: 500px;
-        margin-top: 5%;
-        margin-left: 28%;
-        
-    }
-    .Gavofoto3{
-        width:1500px ;
-        height: 1000px;
-        margin-top: 18%;
-        margin-left: 10%;*/
-    }
-
     .transformacion{
         width: 1000px;
         height: 400px;
