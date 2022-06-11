@@ -627,7 +627,7 @@ a:link, a:visited, a:active{
     
                                             /*PAGINAS*/
             /*index*/
-    #Gavofoto{
+    /*#Gavofoto{
         display: flex;
         flex-direction:row;
         flex-wrap:wrap ;
@@ -662,21 +662,22 @@ a:link, a:visited, a:active{
         width:1500px ;
         height: 1000px;
         margin-top: 18%;
-        margin-left: 10%;
+        margin-left: 10%;*/
     }
 
     .transformacion{
-        width: 600px;
-        height: 590px;
+        width: 1000px;
+        height: 400px;
         background-color:white;
         z-index: -1;
-        margin-top: 65%;
-        margin-left: 40%;
+        margin-top: 8%;
+        margin-bottom: 100%;
+        margin-left: 25%;
     }
 
 
     .historia{
-        display:inline-block;
+        display:block;
         text-align:center;
         font-size: 40px;
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -685,10 +686,10 @@ a:link, a:visited, a:active{
         margin-bottom:10%;
         margin-left: 11%;
     }
-    .puntos{
+   .puntos{
            background: rgba(13, 13, 14, 0.85);
            left: 15%;
-           bottom: 70%;
+           bottom: 80%;
            right:0;
            top: 0%;
            display: flex;
@@ -709,6 +710,7 @@ a:link, a:visited, a:active{
            padding: 1rem;
            font-size: 1.3rem;
            color: white;
+           animation-delay: 5s;
     }
     
     
@@ -840,18 +842,14 @@ a:link, a:visited, a:active{
         width: 50px;
         height: auto;
         color: white;
-        margin-right: -7%;   
+        margin-right: -7%;
+        margin-bottom: 04%;   
         
     }
-    .logo{
-        position:relative;
-        margin-left:150%;
-        width: 45%;
-    }
-
+    
     .logoindex{
         position:relative;
-        margin-left:300%;
+        margin-left:255%;
         width: 45%;
     }
 
@@ -865,5 +863,5 @@ a:link, a:visited, a:active{
         color: black;
     }
     
-}
+
 
