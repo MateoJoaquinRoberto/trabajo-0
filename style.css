@@ -808,6 +808,10 @@ a:link, a:visited, a:active{
         margin-bottom: 04%;   
         
     }
+    .logo{
+        position: relative;
+        margin-left: 175%;
+    }
     
     .logoindex{
         position:relative;
@@ -825,5 +829,3 @@ a:link, a:visited, a:active{
         color: black;
     }
     
-
-
