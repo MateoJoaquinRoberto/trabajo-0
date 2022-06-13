@@ -482,16 +482,7 @@ a:link, a:visited, a:active{
 }
 
     /*footer*/
-.wpp,.insta,.maps{
-    display:grid;
-    position:relative;
-    bottom: -100px;
-    width: 40px;
-    height: auto;
-    color: white;
-    left: -7%;
     
-}
 .logo{
     position:relative;
     left:90%;
@@ -515,15 +506,8 @@ a:link, a:visited, a:active{
     color: white;
     font-size: 300%;
     margin-left: 7%;
+    left: -7%;
 }
-.logoindex{
-    position:relative;
-    margin-left: 65%;
-    margin-bottom:25%;
-    width: 20%;
-    }
-}
-
 
 
 
@@ -533,17 +517,6 @@ a:link, a:visited, a:active{
         background-color: black;
     }
     
-    /*#grilla{
-        display: grid;
-        grid-template-rows:1% ;
-        grid-template-columns: min-content;
-    }*/
-    .cuerpo{
-        display: grid;
-        background-color: black;
-        grid-template-columns:none;
-    
-    }
     .header{
         grid-area: header;
         justify-content: center;
@@ -684,16 +657,6 @@ a:link, a:visited, a:active{
     
     /*servicios*/
     
-    .section {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        grid-template-rows:auto auto auto auto;
-        grid-column-gap:0px;
-        grid-row-gap: 15px;
-        justify-items:start;
-        align-items:center;
-        
-    }   
     .trabajo{
         text-align: center;
         font-weight: bold;
@@ -701,6 +664,7 @@ a:link, a:visited, a:active{
         font-size: 30px;
         color: rgb(0, 0, 0);
         background-color: white;
+        margin-top: 0%;
         
         
     }
@@ -798,11 +762,6 @@ a:link, a:visited, a:active{
         margin-left: 175%;
     }
     
-    .logoindex{
-        position:relative;
-        margin-left:255%;
-        width: 45%;
-    }
 
     #links a{
         text-decoration:none;
