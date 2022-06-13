@@ -601,7 +601,7 @@ a:link, a:visited, a:active{
         font-family: 'Times New Roman', Times, serif;
         font-size: 80px;
         color: rgb(248, 245, 245);
-        margin-left: 34%;
+        margin-left: 0%;
         margin-top: 4% ;
     }
     
@@ -611,7 +611,7 @@ a:link, a:visited, a:active{
         font-family: 'Times New Roman', Times, serif;
         font-size: 50px;
         color: rgb(248, 245, 245);
-        margin-top: 5%;
+        margin-top: 12%;
     }
     .titulo3{
         text-align: center;
@@ -622,6 +622,7 @@ a:link, a:visited, a:active{
         color: black;
         background-color: white;
         margin-top: 6%;
+        margin-right: 3%;
     }   
     
     
@@ -700,7 +701,7 @@ a:link, a:visited, a:active{
         font-size: 30px;
         color: rgb(0, 0, 0);
         background-color: white;
-        margin-top: 6%;
+        
         
     }
     .corte{
@@ -710,35 +711,6 @@ a:link, a:visited, a:active{
         font-size: 20px;
         color: rgb(0, 0, 0);
         background-color: white;
-    }
-    .foto1{
-        margin:0px auto;
-        margin-left: 132px;
-        border-width: 0px;
-    }
-    .foto2{
-        display: block;
-        margin:0px auto;
-        margin-left: 155px;
-        border-width: 0px;
-    }
-    .foto3{
-        margin:0px auto;
-        display: block;
-        margin-left: 150px;
-        border-width: 0px;
-    }
-    .foto4{
-        display: block;
-        margin:0px auto;
-        margin-left: 150px;
-        border-width: 0px;
-    }
-    .foto5{
-        display: block;
-        margin:0px auto;
-        margin-left: 46%;
-        border-width: 0px;
     }
     
     /*productos*/
@@ -760,26 +732,34 @@ a:link, a:visited, a:active{
     } 
           /*turnos*/
     .formulario{
-        display: grid;
+        display:block;
         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
         font-size:150%;
-        color: white;
+        color:white;
         align-items:center;
         text-align: center;
-        width: 25%;
-        height: 42%;
-        margin-left: 37%;
+        width: 50%;
+        height: 45%;
+        margin-left: 25%;
         margin-top: 5%;
+        background-color:black;
+        border-style: solid;
+        border-width: 2px;
+        border-color:white;
+        
+        
+        
     }
 
     .Serviciosdeseados{
         font-size: 110%;
-        margin-right: 40%;
+        margin-right: 73%;
 
     }
 
     .btn{
         margin-top: 5%;
+        margin-bottom: 2%;
     }
         
     /*personal*/
