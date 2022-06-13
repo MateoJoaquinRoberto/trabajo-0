@@ -627,13 +627,18 @@ a:link, a:visited, a:active{
     
                                             /*PAGINAS*/
             /*index*/
+    .carousel-item{
+        margin-top: 8%;
+        margin-left: 25%;
+    }
+
     .transformacion{
         width: 1000px;
         height: 400px;
         background-color:white;
         z-index: -1;
         margin-top: 8%;
-        margin-bottom: 100%;
+        margin-bottom: 10%;
         margin-left: 24%;
     }
 
@@ -645,7 +650,7 @@ a:link, a:visited, a:active{
         font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
         color:black;
         margin-top: 2%;
-        margin-bottom:10%;
+        margin-bottom:2%;
         margin-left: 11%;
     }
    .puntos{
