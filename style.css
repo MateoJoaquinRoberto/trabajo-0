@@ -1,542 +1,503 @@
 @media screen and (min-width: 1024px) {
-    #fondo {
-        background-color: black;
-    }
+  #fondo {
+    background-color: black;
+  }
 
+  .header {
+    grid-area: header;
+    justify-content: center;
+  }
 
-    .header {
-        grid-area: header;
-        justify-content: center;
+  nav {
+    grid-area: nav;
+  }
 
-    }
+  section {
+    grid-area: section;
+  }
 
+  article {
+    grid-area: article;
+  }
 
-    nav {
-        grid-area: nav;
-    }
+  aside {
+    grid-area: aside;
+  }
 
+  footer {
+    grid-area: footer;
+  }
 
-    section {
-        grid-area: section;
+  #lista {
+    color: black;
+    background-color: rgb(248, 245, 245);
+    text-align: center;
+    position: fixed;
+    top: 0%;
+    left: 34%;
+  }
 
-    }
+  .menu {
+    list-style-type: none;
+    text-align: center;
+    font-size: 30px;
+    margin: 29px;
+    margin-left: -22px;
+    padding: 0;
+    display: inline;
+  }
 
-    article {
-        grid-area: article;
-    }
+  .titulo {
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 80px;
+    color: rgb(248, 245, 245);
+    margin-left: 0%;
+    margin-top: 4%;
+  }
 
-    aside {
-        grid-area: aside;
-    }
+  .titulo2 {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+    color: rgb(248, 245, 245);
+    margin-top: 12%;
+  }
 
-    footer {
-        grid-area: footer;
-    }
+  .titulo3 {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 45px;
+    color: rgb(248, 245, 245);
+    color: black;
+    background-color: white;
+    margin-top: 6%;
+    margin-right: 3%;
+  }
 
+  /*PAGINAS*/
+  /*index*/
+  .carousel-item {
+    margin-top: 8%;
+    margin-left: 25%;
+  }
 
+  .transformacion {
+    width: 1000px;
+    height: 450px;
+    background-color: white;
+    z-index: -1;
+    margin-top: 8%;
+    margin-bottom: 9%;
+    margin-left: 24%;
+  }
 
-    #lista {
-        color: black;
-        background-color: rgb(248, 245, 245);
-        text-align: center;
-        position: fixed;
-        top: 0%;
-        left: 34%;
-    }
+  .historia {
+    display: block;
+    text-align: center;
+    font-size: 40px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 11%;
+  }
 
-    .menu {
-        list-style-type: none;
-        text-align: center;
-        font-size: 30px;
-        margin: 29px;
-        margin-left: -22px;
-        padding: 0;
-        display: inline;
+  .puntos {
+    background: rgba(13, 13, 14, 0.85);
+    left: 15%;
+    bottom: 80%;
+    right: 0;
+    top: 0%;
+    display: flex;
+    position: fixed;
+    z-index: 999;
+    background: rgb(12, 12, 12);
+    border-radius: 2px;
+    box-shadow: 0px 1px 3px rgb(12, 12, 12);
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-left: 60%;
+    max-width: 600px;
+    min-width: 320px !important;
+    overflow: hidden;
+    width: 25%;
+    padding: 1rem;
+    font-size: 1.3rem;
+    color: white;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+  }
+  .puntos .button {
+    color: black;
+    background-color: white;
+  }
+  .puntos .button:hover {
+    color: wheat;
+    background-color: rgba(13, 13, 14, 0.85);
+  }
 
+  /*servicios*/
+  .section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-column-gap: 0px;
+    grid-row-gap: 15px;
+    margin-left: 5%;
+    justify-items: start;
+    align-items: center;
+  }
 
-    }
+  .trabajo {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+    margin-top: 0%;
+  }
 
-    .titulo {
-        position: absolute;
-        text-align: center;
-        font-weight: bold;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 80px;
-        color: rgb(248, 245, 245);
-        margin-left: 0%;
-        margin-top: 4%;
-    }
+  .corte {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+  }
 
-    .titulo2 {
-        text-align: center;
-        font-weight: bold;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 50px;
-        color: rgb(248, 245, 245);
-        margin-top: 12%;
-    }
+  .foto2 {
+    padding-left: 13%;
+  }
 
-    .titulo3 {
-        text-align: center;
-        font-weight: bold;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 45px;
-        color: rgb(248, 245, 245);
-        color: black;
-        background-color: white;
-        margin-top: 6%;
-        margin-right: 3%;
-    }
+  /*productos*/
+  .issue {
+    display: inline;
+    width: 300px;
+    height: 300px;
+    margin-left: 12%;
+    padding: 1%;
+  }
 
+  .alfa {
+    display: inline;
+    width: 300px;
+    height: 300px;
+    margin-left: 12%;
+    padding: 1%;
+    background-color: black;
+  }
 
-    /*PAGINAS*/
-    /*index*/
-    .carousel-item {
-        margin-top: 8%;
-        margin-left: 25%;
-    }
+  /*turnos*/
+  .formulario {
+    display: block;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 150%;
+    color: white;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+    height: 45%;
+    margin-left: 25%;
+    margin-top: 5%;
+    background-color: black;
+    border-style: solid;
+    border-width: 2px;
+    border-color: white;
+  }
+  .formulario .Serviciosdeseados {
+    font-size: 110%;
+    margin-right: 73%;
+  }
+  .formulario .Serviciosdeseados .btn {
+    margin-top: 5%;
+    margin-bottom: 2%;
+  }
 
-    .transformacion {
-        width: 1000px;
-        height: 450px;
-        background-color: white;
-        z-index: -1;
-        margin-top: 8%;
-        margin-bottom: 9%;
-        margin-left: 24%;
-    }
+  /*personal*/
+  #avatar {
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    align-items: baseline;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 3%;
+    background-color: white;
+  }
 
+  .equipo {
+    width: 25%;
+    height: 42%;
+    margin-top: 20%;
+  }
 
-    .historia {
-        display: block;
-        text-align: center;
-        font-size: 40px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: black;
-        margin-top: 2%;
-        margin-bottom: 2%;
-        margin-left: 11%;
-    }
+  /*footer*/
+  #links {
+    margin-right: 65%;
+  }
 
-    .puntos {
-        background: rgba(13, 13, 14, 0.85);
-        left: 15%;
-        bottom: 80%;
-        right: 0;
-        top: 0%;
-        display: flex;
-        position: fixed;
-        z-index: 999;
-        background: rgb(12, 12, 12);
-        border-radius: 2px;
-        box-shadow: 0px 1px 3px rgba(12, 12, 12);
-        box-sizing: content-box;
-        display: flex;
-        flex-direction: column;
-        margin: auto;
-        margin-left: 60%;
-        max-width: 600px;
-        min-width: 320px !important;
-        overflow: hidden;
-        width: 25%;
-        padding: 1rem;
-        font-size: 1.3rem;
-        color: white;
-        animation-delay: 5s;
-    }
+  .wpp,
+.insta,
+.maps {
+    display: inline;
+    position: relative;
+    bottom: -100px;
+    width: 50px;
+    height: auto;
+    color: white;
+    margin-bottom: 3%;
+  }
 
+  .logo {
+    position: relative;
+    margin-left: 280%;
+  }
 
-    /*servicios*/
-    .section {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        grid-template-rows: auto auto auto auto;
-        grid-column-gap: 0px;
-        grid-row-gap: 15px;
-        margin-left: 5%;
-        justify-items: start;
-        align-items: center;
-    }
+  #links a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
 
-
-    .trabajo {
-        text-align: center;
-        font-weight: bold;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 30px;
-        color: rgb(0, 0, 0);
-        background-color: white;
-        margin-top: 0%;
-
-
-    }
-
-    .corte {
-        text-align: center;
-        font-weight: bold;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 20px;
-        color: rgb(0, 0, 0);
-        background-color: white;
-    }
-
-
-    /*productos*/
-    .issue {
-        display: inline;
-        width: 300px;
-        height: 300px;
-        margin-left: 12%;
-        padding: 1%;
-    }
-
-    .alfa {
-        display: inline;
-        width: 300px;
-        height: 300px;
-        margin-left: 12%;
-        padding: 1%;
-        background-color: black;
-
-    }
-
-    /*turnos*/
-    .formulario {
-        display: block;
-        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size: 150%;
-        color: white;
-        align-items: center;
-        text-align: center;
-        width: 50%;
-        height: 45%;
-        margin-left: 25%;
-        margin-top: 5%;
-        background-color: black;
-        border-style: solid;
-        border-width: 2px;
-        border-color: white;
-
-
-
-    }
-
-    .Serviciosdeseados {
-        font-size: 110%;
-        margin-right: 73%;
-
-    }
-
-    .btn {
-        margin-top: 5%;
-        margin-bottom: 2%;
-    }
-
-    /*personal*/
-    #avatar {
-        display: grid;
-        grid-template-columns: repeat(3, 2fr);
-        align-items: baseline;
-        justify-content: space-evenly;
-        text-align: center;
-        margin-top: 3%;
-        background-color: white
-    }
-
-    .equipo {
-        width: 25%;
-        height: 42%;
-        margin-top: 20%;
-    }
-
-    /*footer*/
-    #links {
-        margin-right: 65%;
-    }
-
-    .wpp,
-    .insta,
-    .maps {
-        display: inline;
-        position: relative;
-        bottom: -100px;
-        width: 50px;
-        height: auto;
-        color: white;
-
-        margin-bottom: 03%;
-
-    }
-
-    .logo {
-        position: relative;
-        margin-left: 280%;
-    }
-
-
-    #links a {
-        text-decoration: none;
-        color: rgb(255, 255, 255);
-
-    }
-
-    a:link,
-    a:visited,
-    a:active {
-        text-decoration: none;
-        color: black;
-    }
+  a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+    color: black;
+  }
 }
-
-
 /*aca cambiia de dispositivo*/
-
-
-
-
-
-
-
 @media screen and (max-width: 500px) {
-    #fondo {
-        background-color:black;
-        overflow-x: hidden;
-    }
+  #fondo {
+    background-color: black;
+    overflow-x: hidden;
+  }
 
+  #lista {
+    color: black;
+    background-color: rgb(248, 245, 245);
+    text-align: center;
+    position: fixed;
+    top: 0%;
+    left: 0%;
+  }
 
+  .menu {
+    list-style-type: none;
+    text-align: center;
+    font-size: 24px;
+    margin: 23px;
+    margin-left: -22px;
+    padding: 0;
+    display: inline;
+  }
 
-    #lista {
-        color: black;
-        background-color: rgb(248, 245, 245);
-        text-align: center;
-        position: fixed;
-        top: 0%;
-        left: 0%;
-    }
+  .titulo {
+    position: absolute;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 60px;
+    color: rgb(248, 245, 245);
+    margin-top: 10%;
+  }
 
-    .menu {
-        list-style-type: none;
-        text-align: center;
-        font-size: 24px;
-        margin: 23px;
-        margin-left: -22px;
-        padding: 0;
-        display: inline;
+  .titulo2 {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 50px;
+    color: rgb(248, 245, 245);
+    margin-top: 15%;
+  }
 
+  .titulo3 {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 45px;
+    color: rgb(248, 245, 245);
+    color: black;
+    background-color: white;
+    margin-top: 6%;
+    margin-right: 3%;
+  }
 
-    }
+  .carousel-item {
+    margin-top: 30%;
+    margin-left: 30%;
+  }
 
-    .titulo {
-        position: absolute;
-        text-align: center;
-        font-weight: bold;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 60px;
-        color: rgb(248, 245, 245);
-        margin-top: 10%;
-    }
+  .carousel-control-prev {
+    margin-left: 20%;
+  }
 
-    .titulo2 {
-        text-align: center;
-        font-weight: bold;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 50px;
-        color: rgb(248, 245, 245);
-        margin-top: 15%;
-    }
+  .carousel-control-next {
+    margin-right: 10%;
+  }
 
-    .titulo3 {
-        text-align: center;
-        font-weight: bold;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 45px;
-        color: rgb(248, 245, 245);
-        color: black;
-        background-color: white;
-        margin-top: 6%;
-        margin-right: 3%;
-    }
+  .carousel-indicators {
+    margin-left: 25%;
+    margin-bottom: -7%;
+  }
 
+  .transformacion {
+    width: 1000px;
+    height: 275px;
+    background-color: white;
+    z-index: -1;
+    margin-top: 8%;
+    margin-bottom: 9%;
+  }
 
-    .carousel-item {
-        margin-top: 30%;
-        margin-left: 30%;
-    }
+  .historia {
+    display: block;
+    text-align: center;
+    font-size: 22px;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    color: black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    margin-left: 0%;
+  }
 
-    .carousel-control-prev {
-        margin-left: 20%;
+  .puntos {
+    background: rgba(13, 13, 14, 0.85);
+    top: 0%;
+    right: 46%;
+    bottom: 80%;
+    display: inline;
+    position: relative;
+    z-index: 999;
+    background: rgb(12, 12, 12);
+    border-radius: 2px;
+    box-shadow: 0px 1px 3px rgb(12, 12, 12);
+    box-sizing: content-box;
+    flex-direction: column;
+    margin: auto;
+    margin-left: 60%;
+    margin-bottom: 10%;
+    max-width: 600px;
+    min-width: 320px !important;
+    overflow: hidden;
+    width: 25%;
+    padding: 1rem;
+    font-size: 1.3rem;
+    color: white;
+    -webkit-animation-delay: 0s;
+            animation-delay: 0s;
+  }
 
-    }
-    .carousel-control-next{
-        margin-right: 10%;
+  /*servicios*/
+  .trabajo {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+  }
 
-    }
+  .corte {
+    text-align: center;
+    font-weight: bold;
+    font-family: "Times New Roman", Times, serif;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    background-color: white;
+  }
 
-    .carousel-indicators {
-        margin-left: 25%;
-        margin-bottom: -7%;
-    }
+  .foto1 {
+    align-items: center;
+    margin-left: 30%;
+    width: 50%;
+  }
 
+  /*productos*/
+  .issue {
+    width: 180px;
+    height: 350px;
+    margin-left: 9%;
+    padding: 1%;
+  }
 
+  .alfa {
+    display: inline;
+    width: 172px;
+    height: 350px;
+    margin-left: 9%;
+    padding: 1%;
+  }
 
-    .transformacion {
-        width: 1000px;
-        height: 275px;
-        background-color: white;
-        z-index: -1;
-        margin-top: 8%;
-        margin-bottom: 9%;
-    }
+  /*turnos*/
+  .formulario {
+    display: block;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    font-size: 115%;
+    color: white;
+    align-items: center;
+    text-align: center;
+  }
+  .formulario .Serviciosdeseados {
+    font-size: 110%;
+  }
+  .formulario .Serviciosdeseados .btn {
+    margin-top: 5%;
+    margin-bottom: 2%;
+  }
 
+  /*personal*/
+  #avatar {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    align-items: baseline;
+    justify-content: space-evenly;
+    text-align: center;
+    margin-top: 3%;
+    background-color: white;
+  }
 
-    .historia {
-        display: block;
-        text-align: center;
-        font-size: 22px;
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-        color: black;
-        margin-top: 2%;
-        margin-bottom: 2%;
-        margin-left: 0%;
-    }
+  .equipo {
+    width: 10%;
+    height: 42%;
+    margin-top: 20%;
+  }
 
-    .puntos {
-        background: rgba(13, 13, 14, 0.85);
-        
-        top: 0%;
-        right: 46%;
-        bottom: 80%;
-        display: inline;
-        position: relative;
-        z-index: 999;
-        background: rgb(12, 12, 12);
-        border-radius: 2px;
-        box-shadow: 0px 1px 3px rgba(12, 12, 12);
-        box-sizing: content-box;
-        flex-direction: column;
-        margin: auto;
-        margin-left: 60%;
-        margin-bottom: 10%;
-        max-width: 600px;
-        min-width: 320px !important;
-        overflow: hidden;
-        width: 25%;
-        padding: 1rem;
-        font-size: 1.3rem;
-        color: white;
-        animation-delay: 0s;
-    }
+  /*footer*/
+  #links {
+    margin-right: 65%;
+  }
 
+  .wpp, .insta, .maps {
+    display: inline;
+    position: relative;
+    bottom: -100px;
+    width: 50px;
+    height: auto;
+    color: white;
+    margin-right: 7%;
+    margin-bottom: 5%;
+  }
 
-    /*servicios*/
+  .logo {
+    position: relative;
+    margin-left: 280%;
+  }
 
-    .trabajo {
-        text-align: center;
-        font-weight: bold;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 30px;
-        color: rgb(0, 0, 0);
-        background-color: white;
-    }
+  #links a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+  }
 
-    .corte {
-        text-align: center;
-        font-weight: bold;
-        font-family: 'Times New Roman', Times, serif;
-        font-size: 20px;
-        color: rgb(0, 0, 0);
-        background-color: white;
-    }
-
-    .foto1{
-        align-items: center;
-        margin-left: 30%;
-        width: 50%;
-    }
-
-    /*productos*/
-    .issue {
-        width: 180px;
-        height: 350px;
-        margin-left: 9%;
-        padding: 1%;
-    }
-
-    .alfa {
-        display: inline;
-        width: 172px;
-        height: 350px;
-        margin-left: 9%;
-        padding: 1%
-    }
-
-    /*turnos*/
-       .formulario{
-        display:block;
-       font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-        font-size:115%;
-        color:white;
-        align-items:center;
-        text-align: center;
-       
-        
-     }
-
-    .Serviciosdeseados{
-        font-size: 110%;
-    
-
-    }
-
-    .btn{
-        margin-top: 5%;
-        margin-bottom: 2%;
-    }
-        
-    /*personal*/
-     #avatar{
-        display:grid;
-        grid-template-columns: repeat(1, 1fr);
-        align-items:baseline;
-        justify-content:space-evenly;
-        text-align: center;
-        margin-top: 3%;
-        background-color: white
-    }
-    .equipo{
-        width: 10%;
-        height: 42%;
-        margin-top: 20%;
-    }
-    
-        /*footer*/
-    #links {
-        margin-right: 65%;
-    }
-
-     .wpp,.insta,.maps{
-        display:inline;
-        position:relative;
-        bottom: -100px;
-        width: 50px;
-        height: auto;
-        color: white;
-        margin-right: 7%;
-        margin-bottom: 05%;   
-        
-    }
-    .logo{
-        position: relative;
-        margin-left: 280%;
-    }
-
-    #links a{
-        text-decoration:none;
-        color:rgb(255, 255, 255);
-        
-    }
-    a:link, a:visited, a:active{
-        text-decoration: none;
-        color: black;
-    }
-}
+  a:link, a:visited, a:active {
+    text-decoration: none;
+    color: black;
+  }
+}/*# sourceMappingURL=style.css.map */
