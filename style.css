@@ -1,9 +1,9 @@
 @media screen and (min-width: 1024px) {
   #fondo {
-    background-color: rgba(182, 82, 0, 0.74);
+    background-color: rgb(226, 106, 106);
   }
 
-  .header {
+  .header, .formulario {
     grid-area: header;
     justify-content: center;
   }
@@ -131,12 +131,14 @@
     font-size: 1.3rem;
     color: white;
     -webkit-animation-delay: 0s;
-            animation-delay: 0s;
+    animation-delay: 0s;
   }
+
   .puntos .button {
     color: black;
     background-color: white;
   }
+
   .puntos .button:hover {
     color: wheat;
     background-color: rgba(13, 13, 14, 0.85);
@@ -146,7 +148,7 @@
   .section {
     display: grid;
     grid-template-columns: auto auto auto;
-    grid-template-rows: auto ;
+    grid-template-rows: auto;
     grid-column-gap: 0px;
     grid-row-gap: 15px;
     justify-items: center;
@@ -191,7 +193,7 @@
     height: 300px;
     margin-left: 12%;
     padding: 1%;
-    background-color:rgba(206, 126, 60, 0.74);
+    background-color: rgba(206, 126, 60, 0.74);
   }
 
   /*turnos*/
@@ -211,10 +213,12 @@
     border-width: 2px;
     border-color: white;
   }
+
   .formulario .Serviciosdeseados {
     font-size: 110%;
     margin-right: 73%;
   }
+
   .formulario .Serviciosdeseados .btn {
     margin-top: 5%;
     margin-bottom: 2%;
@@ -243,8 +247,8 @@
   }
 
   .wpp,
-  .insta,
-  .maps {
+.insta,
+.maps {
     display: inline;
     position: relative;
     bottom: -100px;
@@ -270,11 +274,15 @@ a:active {
     text-decoration: none;
     color: black;
   }
+
+  .formulario {
+    background-color: #405de6 #833ab4 #c13584 #e1306c #fd1d1d #f56040 #f77737 #fcaf45 #ffdc80;
+  }
 }
 /*aca cambiia de dispositivo*/
 @media screen and (max-width: 1023px) {
   #fondo {
-    background-color: black;
+    background-color: rgb(226, 106, 106);
     overflow-x: hidden;
   }
 
@@ -390,7 +398,7 @@ a:active {
     font-size: 1.3rem;
     color: white;
     -webkit-animation-delay: 0s;
-            animation-delay: 0s;
+    animation-delay: 0s;
   }
 
   /*servicios*/
@@ -443,9 +451,11 @@ a:active {
     align-items: center;
     text-align: center;
   }
+
   .formulario .Serviciosdeseados {
     font-size: 110%;
   }
+
   .formulario .Serviciosdeseados .btn {
     margin-top: 5%;
     margin-bottom: 2%;
@@ -473,7 +483,9 @@ a:active {
     margin-right: 65%;
   }
 
-  .wpp, .insta, .maps {
+  .wpp,
+.insta,
+.maps {
     display: inline;
     position: relative;
     bottom: -100px;
@@ -494,8 +506,22 @@ a:active {
     color: rgb(255, 255, 255);
   }
 
-  a:link, a:visited, a:active {
+  a:link,
+a:visited,
+a:active {
     text-decoration: none;
     color: black;
+  }
+
+  .insta--instagram {
+    color: #405de6 #833ab4 #c13584 #e1306c #fd1d1d #f56040 #f77737 #fcaf45 #ffdc80, #405de6 #833ab4 #c13584 #e1306c #fd1d1d #f56040 #f77737 #fcaf45 #ffdc80, #405de6 #833ab4 #c13584 #e1306c #fd1d1d #f56040 #f77737 #fcaf45 #ffdc80, #405de6 #833ab4 #c13584 #e1306c #fd1d1d #f56040 #f77737 #fcaf45 #ffdc80, #405de6 #833ab4 #c13584 #e1306c #fd1d1d #f56040 #f77737 #fcaf45 #ffdc80, #405de6 #833ab4 #c13584 #e1306c #fd1d1d #f56040 #f77737 #fcaf45 #ffdc80, #405de6 #833ab4 #c13584 #e1306c #fd1d1d #f56040 #f77737 #fcaf45 #ffdc80, #405de6 #833ab4 #c13584 #e1306c #fd1d1d #f56040 #f77737 #fcaf45 #ffdc80, #405de6 #833ab4 #c13584 #e1306c #fd1d1d #f56040 #f77737 #fcaf45 #ffdc80;
+  }
+
+  .wpp--whatsapp {
+    color: #4dc247;
+  }
+
+  .button {
+    font-weight: bold;
   }
 }/*# sourceMappingURL=style.css.map */
