@@ -1,49 +1,25 @@
 @media screen and (min-width: 1024px) {
   #fondo {
-    background-color: rgb(226, 106, 106);
-  }
-
-  .header, .formulario {
-    grid-area: header;
-    justify-content: center;
-  }
-
-  nav {
-    grid-area: nav;
-  }
-
-  section {
-    grid-area: section;
-  }
-
-  article {
-    grid-area: article;
-  }
-
-  aside {
-    grid-area: aside;
-  }
-
-  footer {
-    grid-area: footer;
+    background: linear-gradient(black, gray);
   }
 
   #lista {
-    color: black;
-    background-color: rgb(248, 245, 245);
+    color: rgb(250, 245, 245);
+    background-color: linear-gradient(black, gray);
     text-align: center;
     position: fixed;
     top: 0%;
-    left: 34%;
+    left: 20%;
     z-index: 1000;
   }
 
   .menu {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     list-style-type: none;
     text-align: center;
-    font-size: 30px;
+    font-size: 40px;
     margin: 29px;
-    margin-left: -22px;
+    margin-left: 22px;
     padding: 0;
     display: inline;
   }
@@ -86,14 +62,22 @@
     margin-left: 25%;
   }
 
+  .carousel-control-prev-icon {
+    margin-left: 85%;
+  }
+
+  .carousel-control-next-icon {
+    margin-right: 85%;
+  }
+
   .transformacion {
     width: 1000px;
     height: 450px;
-    background-color: white;
+    background-color: black, gray;
     z-index: -1;
     margin-top: 8%;
     margin-bottom: 9%;
-    margin-left: 21%;
+    margin-left: 22%;
   }
 
   .historia {
@@ -101,9 +85,10 @@
     text-align: center;
     font-size: 40px;
     font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-    color: black;
+    color: white;
     margin-top: 2%;
     margin-bottom: 2%;
+    margin-left: 2%;
   }
 
   .puntos {
@@ -183,7 +168,7 @@
     display: inline;
     width: 300px;
     height: 300px;
-    margin-left: 12%;
+    margin-left: 13%;
     padding: 1%;
   }
 
@@ -191,9 +176,9 @@
     display: inline;
     width: 300px;
     height: 300px;
-    margin-left: 12%;
+    margin-left: 13%;
     padding: 1%;
-    background-color: rgba(206, 126, 60, 0.74);
+    background-color: black, gray;
   }
 
   /*turnos*/
@@ -272,23 +257,19 @@
 a:visited,
 a:active {
     text-decoration: none;
-    color: black;
-  }
-
-  .formulario {
-    background-color: #405de6 #833ab4 #c13584 #e1306c #fd1d1d #f56040 #f77737 #fcaf45 #ffdc80;
+    color: rgb(155, 176, 184);
   }
 }
 /*aca cambiia de dispositivo*/
 @media screen and (max-width: 1023px) {
   #fondo {
-    background-color: rgb(226, 106, 106);
+    background: linear-gradient(black, gray);
     overflow-x: hidden;
   }
 
   #lista {
-    color: black;
-    background-color: rgb(248, 245, 245);
+    color: rgb(250, 245, 245);
+    background-color: linear-gradient(black, gray);
     text-align: center;
     position: fixed;
     top: 0%;
@@ -296,11 +277,12 @@ a:active {
   }
 
   .menu {
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     list-style-type: none;
     text-align: center;
-    font-size: 24px;
-    margin: 23px;
-    margin-left: -22px;
+    font-size: 22px;
+    margin: 5px;
+    margin-left: -3px;
     padding: 0;
     display: inline;
   }
@@ -510,18 +492,6 @@ a:active {
 a:visited,
 a:active {
     text-decoration: none;
-    color: black;
-  }
-
-  .insta--instagram {
-    color: #405de6 #833ab4 #c13584 #e1306c #fd1d1d #f56040 #f77737 #fcaf45 #ffdc80, #405de6 #833ab4 #c13584 #e1306c #fd1d1d #f56040 #f77737 #fcaf45 #ffdc80, #405de6 #833ab4 #c13584 #e1306c #fd1d1d #f56040 #f77737 #fcaf45 #ffdc80, #405de6 #833ab4 #c13584 #e1306c #fd1d1d #f56040 #f77737 #fcaf45 #ffdc80, #405de6 #833ab4 #c13584 #e1306c #fd1d1d #f56040 #f77737 #fcaf45 #ffdc80, #405de6 #833ab4 #c13584 #e1306c #fd1d1d #f56040 #f77737 #fcaf45 #ffdc80, #405de6 #833ab4 #c13584 #e1306c #fd1d1d #f56040 #f77737 #fcaf45 #ffdc80, #405de6 #833ab4 #c13584 #e1306c #fd1d1d #f56040 #f77737 #fcaf45 #ffdc80, #405de6 #833ab4 #c13584 #e1306c #fd1d1d #f56040 #f77737 #fcaf45 #ffdc80;
-  }
-
-  .wpp--whatsapp {
-    color: #4dc247;
-  }
-
-  .button {
-    font-weight: bold;
+    color: rgb(155, 176, 184);
   }
 }/*# sourceMappingURL=style.css.map */
