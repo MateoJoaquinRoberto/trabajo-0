@@ -263,7 +263,7 @@ a:active {
 /*aca cambiia de dispositivo*/
 @media screen and (max-width: 1023px) {
   #fondo {
-    background: linear-gradient(black, gray);
+    background: linear-gradient(pink, blue);
     overflow-x: hidden;
   }
 
