@@ -663,7 +663,7 @@ a:active {
     display: inline;
     width: 200px;
     height: 380px;
-    margin-left: 9%;
+    margin-left: 5%;
     padding: 1%;
   }
 
@@ -671,7 +671,7 @@ a:active {
     display: inline;
     width: 200px;
     height: 380px;
-    margin-left: 9%;
+    margin-left: 5%;
     padding: 1%;
   }
 
@@ -900,17 +900,13 @@ a:active {
   }
   .puntos .issue {
     display: inline;
-    width: 200px;
-    height: 380px;
-    margin-left: 9%;
-    padding: 1%;
-  }
-  .puntos .alfa {
-    display: inline;
-    width: 200px;
-    height: 380px;
-    margin-left: 9%;
-    padding: 1%;
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+    height: -webkit-max-content;
+    height: -moz-max-content;
+    height: max-content;
+    margin-left: 90%;
   }
   .puntos .formulario {
     display: block;
