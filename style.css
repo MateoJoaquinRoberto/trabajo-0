@@ -1,6 +1,6 @@
 @media screen and (max-width: 576px) {
   #fondo {
-    background-color: green;
+    background: linear-gradient(black, gray);
   }
 
   #lista {
@@ -98,8 +98,8 @@
 
   .puntos {
     background: rgba(13, 13, 14, 0.85);
-    left: -60%;
-    bottom: 0%;
+    left: -43%;
+    bottom: -25%;
     right: 0%;
     margin-top: 60%;
     display: flex;
@@ -252,7 +252,7 @@ a:active {
 /*//////cambia el dispositivooo*/
 @media (min-width: 768px) {
   #fondo {
-    background-color: red;
+    background: linear-gradient(black, gray);
   }
 
   #lista {
