@@ -2,7 +2,7 @@
 
   @media screen and (max-width: 576px) {
     #fondo {
-      background-color: green;
+      background:linear-gradient($colordesafio);
     }
   
     #lista {
@@ -260,7 +260,7 @@
             /*//////cambia el dispositivooo*//////
   @media (min-width: 768px){
     #fondo {
-      background-color: red;
+      background:linear-gradient($colordesafio);
     }
   
     #lista {
