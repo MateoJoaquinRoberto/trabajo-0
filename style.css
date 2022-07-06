@@ -154,8 +154,9 @@
     background-color: white;
   }
 
-  .foto2 {
-    padding-left: 13%;
+  .section {
+    display: block;
+    text-align: center;
   }
 
   /*productos*/
@@ -411,6 +412,11 @@ a:active {
     background-color: white;
   }
 
+  .section {
+    display: block;
+    text-align: center;
+  }
+
   .foto2 {
     text-align: center;
   }
@@ -654,8 +660,18 @@ a:active {
     background-color: white;
   }
 
-  .foto1 {
+  .section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto auto auto;
+    grid-column-gap: 0px;
+    grid-row-gap: 15px;
+    justify-items: center;
     align-items: center;
+  }
+
+  .foto1 {
+    align-items: flex-start;
   }
 
   /*productos*/
@@ -894,6 +910,10 @@ a:active {
     font-size: 40px;
     color: rgb(0, 0, 0);
     background-color: white;
+  }
+  .puntos .section {
+    display: block;
+    text-align: center;
   }
   .puntos .foto1 {
     align-items: center;

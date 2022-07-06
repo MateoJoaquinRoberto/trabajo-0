@@ -157,11 +157,11 @@
       color: rgb(0, 0, 0);
       background-color: white;
     }
+    .section {
+      display: block;
+      text-align: center;
+  }
   
-    .foto2 {
-  
-      padding-left: 13%;
-    }
   
     /*productos*/
     .issue {
@@ -418,6 +418,10 @@
       color: rgb(0, 0, 0);
       background-color: white;
     }
+    .section {
+      display: block;
+      text-align:center;
+  }
   
     .foto2 {
       text-align: center;
@@ -667,9 +671,18 @@
     color: rgb(0, 0, 0);
     background-color: white;
   }
+  .section {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows:auto auto auto auto;
+    grid-column-gap:0px;
+    grid-row-gap: 15px;
+    justify-items:center;
+    align-items:center;
+   }  
 
   .foto1 {
-    align-items: center;
+    align-items: flex-start;
    
   }
 
@@ -911,8 +924,12 @@
     color: rgb(0, 0, 0);
     background-color: white;
   }
+  .section {
+    display: block;
+    text-align:center;
+  }
 
-  .foto1 {
+ .foto1 {
     align-items: center;
    
   }
